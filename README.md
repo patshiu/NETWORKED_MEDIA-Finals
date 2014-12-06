@@ -1,7 +1,7 @@
 NETWORKED MEDIA FINALS
 ======================
 
-#####NOW: 
+######NOW: 
 - Create the UI elements
 - Create working "frame"
 - Get Caman working on an image
