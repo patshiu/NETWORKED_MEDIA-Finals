@@ -1,18 +1,17 @@
 NETWORKED MEDIA FINALS
 ======================
 
-NOW: 
+#####NOW: 
 - Create the UI elements
 - Create working "frame"
 - Get Caman working on an image
 
-LATER: 
+######LATER: 
 - Get sample negatives
-- 
 
+---------------------------------
 
-
-FEATURE WISHLIST: 
+######FEATURE WISHLIST: 
 - Live video 
 - Masking
 - Presets 
