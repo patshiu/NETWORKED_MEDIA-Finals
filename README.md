@@ -30,5 +30,10 @@ NETWORKED MEDIA FINALS
 - Set grey point 
 - Zoom 
 
+----------------------------------
+
+######Resources
+Grunt Setup Tutorial: 
+http://jlengstorf.github.io/hyper-optimized-workflow-slides
 
 
