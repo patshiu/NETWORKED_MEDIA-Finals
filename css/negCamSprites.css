@@ -1,0 +1,34 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:f7058376d01b7950f190cb28de3ab9b5:59aa6d58f85b62432026ae7cbf65cedc:b3413861a5da8cf1351746d21436e85e$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(negCamSprites.png);}
+
+.clarity {width:30px; height:30px; background-position: -194px -66px}
+.clarity_RO {width:30px; height:30px; background-position: -162px -66px}
+.contrast {width:30px; height:30px; background-position: -130px -66px}
+.contrast_RO {width:30px; height:30px; background-position: -66px -84px}
+.export {width:60px; height:48px; background-position: -65px -2px}
+.exposure {width:30px; height:30px; background-position: -34px -84px}
+.exposure_RO {width:30px; height:30px; background-position: -2px -84px}
+.gamma {width:30px; height:30px; background-position: -98px -66px}
+.gamma_RO {width:30px; height:30px; background-position: -66px -52px}
+.highlights {width:30px; height:30px; background-position: -34px -52px}
+.highlights_RO {width:30px; height:30px; background-position: -2px -52px}
+.hue {width:30px; height:30px; background-position: -223px -34px}
+.hue_RO {width:30px; height:30px; background-position: -191px -34px}
+.import {width:61px; height:48px; background-position: -2px -2px}
+.shadows {width:30px; height:30px; background-position: -159px -34px}
+.shadows_RO {width:30px; height:30px; background-position: -127px -34px}
+.sharpen {width:30px; height:30px; background-position: -223px -2px}
+.sharpen_RO {width:30px; height:30px; background-position: -191px -2px}
+.temperature {width:30px; height:30px; background-position: -159px -2px}
+.temperature_RO {width:30px; height:30px; background-position: -127px -2px}

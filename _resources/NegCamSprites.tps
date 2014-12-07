@@ -32,11 +32,11 @@
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
-        <uint>72</uint>
+        <uint>144</uint>
         <key>dataFormat</key>
-        <string>less</string>
+        <string>css</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>../css/negCamSprites.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -127,12 +127,12 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename></filename>
+                <filename>../css/negCamSprites.css</filename>
             </struct>
             <key>less</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename></filename>
+                <filename>../css/negCamSprites.less</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -155,7 +155,7 @@
         <key>globalSpriteSettings</key>
         <struct type="SpriteSettings">
             <key>scale</key>
-            <double>1</double>
+            <double>0.5</double>
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>innerPadding</key>
@@ -165,13 +165,12 @@
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>heuristicMask</key>
             <false/>
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../_exports/splices/.DS_Store</filename>
             <filename>../_exports/splices/clarity_RO.png</filename>
             <filename>../_exports/splices/clarity.png</filename>
             <filename>../_exports/splices/contrast_RO.png</filename>
