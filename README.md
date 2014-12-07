@@ -9,6 +9,18 @@ NETWORKED MEDIA FINALS
 ######LATER: 
 - Get sample negatives
 
+######FILTERS:
+- Temperature
+- Hue
+- Exposure
+- Contrast
+- Shadows
+- Highlights
+- Clarity
+- Gamma(?)
+- Sharpness
+
+
 ---------------------------------
 
 ######FEATURE WISHLIST: 
