@@ -1,3 +1,28 @@
 #editingArea {
 	margin-top: 65px;
 }
+/*Bootstrap customs*/
+.navbar-default {
+	background-color: #2B2B2B;
+	border-color: #9E9E9E;
+}
+
+.control-buttons {
+	text-align: center;
+	margin: 9px;
+}
+
+.sliderControl {
+	width: 70%;
+	background-color: #000000;
+	padding: 40px 10px 40px 10px;
+}
+
+.invertMode {
+	background-color: #5A2300;
+	width: 30%;
+}
+
+body {
+	background-color: #2B2B2B;
+}
