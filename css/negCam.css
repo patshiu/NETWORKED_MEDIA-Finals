@@ -10,19 +10,33 @@
 .control-buttons {
 	text-align: center;
 	margin: 9px;
+	height: 30px;
 }
 
+#controlLower {
+	display: table;
+	background-color: #5A2300;
+	width: 100%;
+}
 .sliderControl {
 	width: 70%;
 	background-color: #000000;
-	padding: 40px 10px 40px 10px;
+	padding: 5px 10px 30px 10px;
 }
 
-.invertMode {
-	background-color: #5A2300;
+#invertMode {
 	width: 30%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#invertMode .btn {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 body {
 	background-color: #2B2B2B;
 }
+
