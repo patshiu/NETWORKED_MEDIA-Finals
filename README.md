@@ -10,15 +10,15 @@ NETWORKED MEDIA FINALS
 - Get sample negatives
 
 ######FILTERS:
-- Temperature
-- Hue
-- Exposure
-- Contrast
-- Shadows
-- Highlights
-- Clarity
-- Gamma(?)
-- Sharpness
+1. Temperature
+2. Hue
+3. Exposure
+4. Contrast
+5. Shadows
+6. Highlights
+7. Clarity
+8. Gamma(?)
+9. Sharpness
 
 
 ---------------------------------
