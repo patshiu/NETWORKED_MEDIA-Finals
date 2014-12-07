@@ -1,13 +1,16 @@
 NETWORKED MEDIA FINALS
 ======================
 
-######NOW: 
-- Create the UI elements
-- Create working "frame"
-- Get Caman working on an image
+######DONE: 
+- Create the UI elements (done — except gamma & clarity)
+- Create working "frame" (done)
+- Get Caman working on an image (done)
 
 ######LATER: 
 - Get sample negatives
+- Get Caman working with the buttons & slider
+- Finish up css
+
 
 ######FILTERS:
 1. Temperature
