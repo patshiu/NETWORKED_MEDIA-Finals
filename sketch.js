@@ -14,7 +14,6 @@ function draw() {
 	filter('GRAY')
 	capture.loadPixels();  //capture.loadPixels is undefined?
 	filter('INVERT');
-
 }
 
 

@@ -1,6 +1,14 @@
 #editingArea {
 	margin-top: 65px;
+	max-width: 480px;
 }
+
+#negImg {
+	display: block;
+	min-width: 100%;
+	height: auto;
+}
+
 /*Bootstrap customs*/
 .navbar-default {
 	background-color: #2B2B2B;
