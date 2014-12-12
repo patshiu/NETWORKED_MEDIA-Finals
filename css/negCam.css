@@ -36,6 +36,10 @@
 	vertical-align: middle;
 }
 
+#negImg {
+	width: 370px;
+}
+
 body {
 	background-color: #2B2B2B;
 }
