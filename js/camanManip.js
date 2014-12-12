@@ -4,7 +4,7 @@ Caman("#negImg", "../images/portra400.jpg", function () {
   this.invert().render();
 });
 
-/*Caman("#testImg", function () {
+Caman("#idk", function () {
   // manipulate image here
   this.brightness(5).render();
-});*/
+});
