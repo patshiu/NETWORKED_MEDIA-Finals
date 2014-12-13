@@ -1,50 +1,86 @@
-<html>
+<!doctype html>
+
+<html lang="en">
 <head>
-<title>Negative App</title>
-  <script language="javascript" type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.11/p5.js"></script>
-  <script language="javascript" type="text/javascript" src="/scripts/p5.dom.js"></script>
-<script type="text/javascript" src="/scripts/CamanJS-4.1.1/dist/caman.full.min.js"></script>
-  <script language="javascript" type="text/javascript" src="sketch_still.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
-  <style type=text/css>
+	<meta charset="utf-8">
 
-#body{
-	background-color: white;
-	font-family: 'Cousine', 'courier', 'sans-serif';
-	font-size: 16px;
-	text-align: center;
-	line-height: 23px;
-}
+	<title>NegCam</title>
+	<meta name="Negative Scan Converter" content="Negative Scanner">
+	<meta name="Negative Scan" content="Negative Scanner">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-#container{
-	margin: 0 auto 0 auto;
-	width: 1000px;
-	height: 800px;
-}
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-#title{
-	font-size: 21px;
-	margin-top: 5px;
-	margin-bottom: -15px;
-}
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/negCam.css">
 
-#myJS{
-	margin: 5% auto 0 auto;
-	display: block;
+	<!-- Sprites -->
+	<link rel="stylesheet" href="css/negCamSprites.css">
 
-}
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/caman.full.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/camanManip.js"></script>
 
-</style>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 
 <body>
-<div id = "body">
-	<div id = "container">
-   <div id = "title"><p>Neg Dev<p></div>
-   <p>Bada boom</p>
-   <div id="myJS"></div>
-   </div>
-   </div>
+	<container>
+		<div class="container">
+			<!-- Top Nav -->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			  <div>
+			    <div class="import sprite pull-left"></div>
+			    <div class="export sprite pull-right"></div>
+			  </div>
+			</nav>
 
+			<div id="editContainer">
+				<div id="editingArea" class="row-fluid">
+	<!-- 				<h1>Negative Digitizer</h1>
+					<p>Upload a negative for development.</p> -->
+					<canvas id="negImg" class="img-responsive"></canvas>
+				</div>
+			</div>
+
+
+
+<!-- 		  <div class="form-group">
+		    <label for="exampleInputFile">File input</label>
+		    <input type="file" id="exampleInputFile">
+		    <p class="help-block">Example block-level help text here.</p>
+		  </div> -->
+
+			<!-- Bottom Nav -->
+			<nav class="navbar navbar-default navbar-fixed-bottom touch-off" role="navigation">
+			  <div class="control-buttons touch-off">
+			    <div class="temperature sprite touch-on"><a href="#" class="temperature sprite"></a></div>
+			    <div class="hue sprite touch-on"><a href="#" class="hue sprite"></a></div>
+			    <div class="exposure sprite touch-on"><a href="#" class="exposure sprite"></a></div>
+			    <div class="contrast sprite touch-on"><a href="#" class="contrast sprite"></a></div>
+			    <div class="shadows sprite touch-on"><a href="#" class="shadows sprite"></a></div>
+			    <div class="highlights sprite touch-on"><a href="#" class="highlights sprite"></a></div>
+			    <div class="clarity sprite touch-on"><a href="#" class="clarity sprite"></a></div>
+			    <div class="gamma sprite touch-on"><a href="#" class="gamma sprite"></a></div>
+			    <div class="sharpen sprite touch-on"><a href="#" class="sharpen sprite"></a></div>
+			  </div>
+			  <div id="controlLower" class="touch-off"> 
+			  	<div class="sliderControl pull-left">
+			  		<p class="help-block text-uppercase touch-off">BRIGHTNESS : 80</p>
+			  		<input id="slider1" type="range" min="0" max="100" step="1" class="touch-on" />
+			  	</div>
+			  	<div id="invertMode" class="pull-right">
+			  		<button type="button" class="btn btn-primary btn-lg">COLR</button>
+			  	</div>
+			  </div>
+			</nav>
+		</div>
+
+	</container>
+  <script src="#"></script>
 </body>
 </html>

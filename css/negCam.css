@@ -1,3 +1,5 @@
+.touch-off { pointer-events: none; }
+.touch-on { pointer-events: auto; }
 
 
 #editContainer {
