@@ -21,7 +21,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script language="javascript" type="text/javascript" src="js/caman.full.min.js"></script>
-    
+    <script language="javascript" type="text/javascript" src="js/camanManip.js"></script>
 
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -56,22 +56,22 @@
 		  </div> -->
 
 			<!-- Bottom Nav -->
-			<nav class="navbar navbar-default navbar-fixed-bottom touch-off" role="navigation">
-			  <div class="control-buttons touch-off">
-			    <div class="temperature sprite touch-on"><a href="#" class="temperature sprite"></a></div>
-			    <div class="hue sprite touch-on"><a href="#" class="hue sprite"></a></div>
-			    <div class="exposure sprite touch-on"><a href="#" class="exposure sprite"></a></div>
-			    <div class="contrast sprite touch-on"><a href="#" class="contrast sprite"></a></div>
-			    <div class="shadows sprite touch-on"><a href="#" class="shadows sprite"></a></div>
-			    <div class="highlights sprite touch-on"><a href="#" class="highlights sprite"></a></div>
-			    <div class="clarity sprite touch-on"><a href="#" class="clarity sprite"></a></div>
-			    <div class="gamma sprite touch-on"><a href="#" class="gamma sprite"></a></div>
-			    <div class="sharpen sprite touch-on"><a href="#" class="sharpen sprite"></a></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+			  <div class="control-buttons">
+			    <div class="temperature sprite"><a href="#" class="temperature sprite"></a></div>
+			    <div class="hue sprite"><a href="#" class="hue sprite"></a></div>
+			    <div class="exposure sprite"><a href="#" class="exposure sprite"></a></div>
+			    <div class="contrast sprite"><a href="#" class="contrast sprite"></a></div>
+			    <div class="shadows sprite"><a href="#" class="shadows sprite"></a></div>
+			    <div class="highlights sprite"><a href="#" class="highlights sprite"></a></div>
+			    <div class="clarity sprite"><a href="#" class="clarity sprite"></a></div>
+			    <div class="gamma sprite"><a href="#" class="gamma sprite"></a></div>
+			    <div class="sharpen sprite"><a href="#" class="sharpen sprite"></a></div>
 			  </div>
-			  <div id="controlLower" class="touch-off"> 
+			  <div id="controlLower">
 			  	<div class="sliderControl pull-left">
-			  		<p class="help-block text-uppercase touch-off">BRIGHTNESS : <span id ="currentVal">XX</p>
-			  		<input id="slider1" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		<p class="help-block text-uppercase">BRIGHTNESS : 80</p>
+			  		<input id="slider1" type="range" min="0" max="100" step="1" />
 			  	</div>
 			  	<div id="invertMode" class="pull-right">
 			  		<button type="button" class="btn btn-primary btn-lg">COLR</button>
@@ -81,7 +81,6 @@
 		</div>
 
 	</container>
-  <script language="javascript" type="text/javascript" src="js/camanManip.js"></script>
-  <script language="javascript" type="text/javascript" src="patTest.js"></script>
+  <script src="#"></script>
 </body>
 </html>
