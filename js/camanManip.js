@@ -35,10 +35,12 @@ function invert () {
 
 function editImg () {
   // manipulate image here
+  this.revert();
   this.newLayer( function () {
 	  this.setBlendingMode("normal");
 	  this.opacity(100);
 	  this.copyParent();
+	  this.filter.invert();
 	  this.filter.brightness(brightnessVal);
   });
   this.render();
