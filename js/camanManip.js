@@ -23,7 +23,11 @@ window.onload = function () {
 
 
 
-function	 invert () {
+function invert () {
+	this.resize({ //sizing the image down to see if rendering speeds improve
+		width: 320,
+		height: 253
+	});
 	this.invert();
 	this.render();
 }
