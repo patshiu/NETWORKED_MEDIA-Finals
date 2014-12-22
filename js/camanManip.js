@@ -5,7 +5,7 @@ contrastVal = 0, // -100 - 100
 shadowsVal = 0, // LATER
 highlightsVal = 0, // LATER
 clarityVal = 0, //currently mapped to vibrance -100 - 100
-gammaVal = 0, // 0 - 10 
+gammaVal = 1, // 0 - 10 
 sharpnessVal = 0 ; // 0 - 100
 
 
@@ -121,10 +121,10 @@ sharpnessSlider.onchange = function () {
 
 window.onload = function () {
 	Caman("#negImg", "../images/portra400.jpg", plainInvert );
-	//Hide all sliders except for temperature
+	//Load slider values into displays
 	updateValues();
+	//Hide all sliders except for temperature
 	showOnlyControl(0);
-	brightnessDisplay.innerHTML = "0"; 
 	prepareEventHandlers();
 };
 
