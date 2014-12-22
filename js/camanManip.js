@@ -43,11 +43,9 @@ function prepareEventHandlers() {
 	//SET UP BUTTONS
 	for (var i = 0; i < allBtns.length; i++){
 		allBtns[i].onclick = function() {
-			var myString = this.toString();
-			var num = allBtns.indexOf("this");
-
+			var indexOfClicked = allBtns.indexOf(this);
 			//console.log("Control button number ", index , " was clicked");
-			console.log("it worked! This is button number ", num);
+			console.log("it worked! This is button number ", indexOfClicked);
 			showOnlyControl(0);
 		};
 	}
