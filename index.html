@@ -58,42 +58,80 @@
 			<!-- Bottom Nav -->
 			<nav class="navbar navbar-default navbar-fixed-bottom touch-off" role="navigation">
 			  <div class="control-buttons touch-off">
-			    <div class="controlBtn temperature sprite touch-on"><a href="#" class="temperature sprite"></a></div>
-			    <div class="controlBtn hue sprite touch-on"><a href="#" class="hue sprite"></a></div>
-			    <div class="controlBtn exposure sprite touch-on"><a href="#" class="exposure sprite"></a></div>
-			    <div class="controlBtn contrast sprite touch-on"><a href="#" class="contrast sprite"></a></div>
-			    <div class="controlBtn shadows sprite touch-on"><a href="#" class="shadows sprite"></a></div>
-			    <div class="controlBtn highlights sprite touch-on"><a href="#" class="highlights sprite"></a></div>
-			    <div class="controlBtn clarity sprite touch-on"><a href="#" class="clarity sprite"></a></div>
-			    <div class="controlBtn gamma sprite touch-on"><a href="#" class="gamma sprite"></a></div>
-			    <div class="controlBtn sharpen sprite touch-on"><a href="#" class="sharpen sprite"></a></div>
+			    <div class="controlBtn temperature sprite touch-on"><a href="#" class="temperature sprite"  onclick="showOnlyControl(0)"></a></div>
+			    <div class="controlBtn hue sprite touch-on"><a href="#" class="hue sprite"  onclick="showOnlyControl(1)"></a></div>
+			    <div class="controlBtn exposure sprite touch-on"><a href="#" class="exposure sprite"  onclick="showOnlyControl(2)"></a></div>
+			    <div class="controlBtn contrast sprite touch-on"><a href="#" class="contrast sprite"  onclick="showOnlyControl(3)"></a></div>
+			    <div class="controlBtn shadows sprite touch-on"><a href="#" class="shadows sprite"  onclick="showOnlyControl(4)"></a></div>
+			    <div class="controlBtn highlights sprite touch-on"><a href="#" class="highlights sprite" onclick="showOnlyControl(5)"></a></div>
+			    <div class="controlBtn clarity sprite touch-on"><a href="#" class="clarity sprite" onclick="showOnlyControl(6)"></a></div>
+			    <div class="controlBtn gamma sprite touch-on"><a href="#" class="gamma sprite" onclick="showOnlyControl(7)"></a></div>
+			    <div class="controlBtn sharpen sprite touch-on"><a href="#" class="sharpen sprite" onclick="showOnlyControl(8)"></a></div>
 			  </div>
 			  <div id="controlLower" class="touch-off"> 
 			  	<div class="sliderControl pull-left">
 
 			  		<!-- TEMPERATURE -->
 			  		<div id = "temperatureControl" class="controlBox">
-				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
-				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentTemperatureVal">XX</span></p>
+				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
 			  		</div>
 
 			  		<!-- HUE -->
 			  		<div id = "hueControl" class="controlBox">
-				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
-				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+				  		<p class="help-block text-uppercase touch-off">HUE : <span id ="currentHueVal">XX</span></p>
+				  		<input id="hueSlider" type="range" min="0" max="100" step="1" value="0" class="touch-on" onclick=""/>
 			  		</div>
 
 			  		<!-- EXPOSURE -->
-			  		<div id = "temperatureControl" class="controlBox">
-				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
-				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		<div id = "exposureControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">EXPOSURE : <span id ="currentExposureVal">XX</span></p>
+				  		<input id="exposureSlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+			  		
+			  		<!-- CONTRAST -->
+			  		<div id = "contrastControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">CONTRAST : <span id ="currentContrastVal">XX</span></p>
+				  		<input id="contrastSlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
 			  		</div>
 
+			  		<!-- SHADOWS -->
+			  		<div id = "shadowsControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">SHADOWS : <span id ="currentShadowsVal">XX</span></p>
+				  		<input id="shadowsSlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- HIGHLIGHTS -->
+			  		<div id = "highlightsControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">HIGHLIGHTS : <span id ="currentHighlightsVal">XX</span></p>
+				  		<input id="highlightsSlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- CLARITY -->
+			  		<div id = "clarityControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">CLARITY : <span id ="currentClarityVal">XX</span></p>
+				  		<input id="claritySlider" type="range" min="-100" max="100" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+
+
+			  		<!-- GAMMA -->
+			  		<div id = "gammaControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">GAMMA : <span id ="currentGammaVal">XX</span></p>
+				  		<input id="gammaSlider" type="range" min="1" max="10" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- SHARPNESS -->
+			  		<div id = "sharpnessControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">SHARPNESS : <span id ="currentSharpnessVal">XX</span></p>
+				  		<input id="sharpnessSlider" type="range" min="0" max="100" step="1" value="0" class="touch-on" onclick=""/>
+			  		</div>
+
+
 			  		<!-- BRIGHTNESS -->
-			  		<div id = "brightnessControl" class="controlBox">
+<!-- 			  		<div id = "brightnessControl" class="controlBox">
 				  		<p class="help-block text-uppercase touch-off">BRIGHTNESS : <span id ="currentVal">XX</span></p>
 				  		<input id="slider1" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
-			  		</div>
+			  		</div> -->
 
 
 

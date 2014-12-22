@@ -13,22 +13,22 @@
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(negCamSprites.png); line-height: 0;}
 
 .clarity a {width:30px; height:30px; background-position: -194px -66px}
-.clarity a:hover, .clarity a:active {width:30px; height:30px; background-position: -162px -66px}
+.clarity .active {width:30px; height:30px; background-position: -162px -66px}
 .contrast a {width:30px; height:30px; background-position: -130px -66px}
-.contrast a:hover, .contrast a:active {width:30px; height:30px; background-position: -66px -84px}
+.contrast .active {width:30px; height:30px; background-position: -66px -84px}
 .export {width:60px; height:48px; background-position: -65px -2px}
 .exposure a {width:30px; height:30px; background-position: -34px -84px}
-.exposure a:hover, .exposure a:active {width:30px; height:30px; background-position: -2px -84px}
+.exposure .active {width:30px; height:30px; background-position: -2px -84px}
 .gamma a {width:30px; height:30px; background-position: -98px -66px}
-.gamma a:hover, .gamma a:active {width:30px; height:30px; background-position: -66px -52px}
+.gamma .active {width:30px; height:30px; background-position: -66px -52px}
 .highlights a {width:30px; height:30px; background-position: -34px -52px}
-.highlights a:hover, .highlights a:active {width:30px; height:30px; background-position: -2px -52px}
+.highlights .active {width:30px; height:30px; background-position: -2px -52px}
 .hue a {width:30px; height:30px; background-position: -223px -34px}
-.hue a:hover, .hue a:active {width:30px; height:30px; background-position: -191px -34px}
+.hue .active {width:30px; height:30px; background-position: -191px -34px}
 .import {width:61px; height:48px; background-position: -2px -2px}
 .shadows a {width:30px; height:30px; background-position: -159px -34px}
-.shadows a:hover, .shadows a:active {width:30px; height:30px; background-position: -127px -34px}
+.shadows .active{width:30px; height:30px; background-position: -127px -34px}
 .sharpen a {width:30px; height:30px; background-position: -223px -2px}
-.sharpen a:hover, .sharpen a:active {width:30px; height:30px; background-position: -191px -2px}
+.sharpen .active {width:30px; height:30px; background-position: -191px -2px}
 .temperature a {width:30px; height:30px; background-position: -159px -2px}
-.temperature a:hover, .temperature a:active {width:30px; height:30px; background-position: -127px -2px}
+.temperature .active {width:30px; height:30px; background-position: -127px -2px}
