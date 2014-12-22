@@ -58,20 +58,45 @@
 			<!-- Bottom Nav -->
 			<nav class="navbar navbar-default navbar-fixed-bottom touch-off" role="navigation">
 			  <div class="control-buttons touch-off">
-			    <div class="temperature sprite touch-on"><a href="#" class="temperature sprite"></a></div>
-			    <div class="hue sprite touch-on"><a href="#" class="hue sprite"></a></div>
-			    <div class="exposure sprite touch-on"><a href="#" class="exposure sprite"></a></div>
-			    <div class="contrast sprite touch-on"><a href="#" class="contrast sprite"></a></div>
-			    <div class="shadows sprite touch-on"><a href="#" class="shadows sprite"></a></div>
-			    <div class="highlights sprite touch-on"><a href="#" class="highlights sprite"></a></div>
-			    <div class="clarity sprite touch-on"><a href="#" class="clarity sprite"></a></div>
-			    <div class="gamma sprite touch-on"><a href="#" class="gamma sprite"></a></div>
-			    <div class="sharpen sprite touch-on"><a href="#" class="sharpen sprite"></a></div>
+			    <div class="controlBtn temperature sprite touch-on"><a href="#" class="temperature sprite"></a></div>
+			    <div class="controlBtn hue sprite touch-on"><a href="#" class="hue sprite"></a></div>
+			    <div class="controlBtn exposure sprite touch-on"><a href="#" class="exposure sprite"></a></div>
+			    <div class="controlBtn contrast sprite touch-on"><a href="#" class="contrast sprite"></a></div>
+			    <div class="controlBtn shadows sprite touch-on"><a href="#" class="shadows sprite"></a></div>
+			    <div class="controlBtn highlights sprite touch-on"><a href="#" class="highlights sprite"></a></div>
+			    <div class="controlBtn clarity sprite touch-on"><a href="#" class="clarity sprite"></a></div>
+			    <div class="controlBtn gamma sprite touch-on"><a href="#" class="gamma sprite"></a></div>
+			    <div class="controlBtn sharpen sprite touch-on"><a href="#" class="sharpen sprite"></a></div>
 			  </div>
 			  <div id="controlLower" class="touch-off"> 
 			  	<div class="sliderControl pull-left">
-			  		<p class="help-block text-uppercase touch-off">BRIGHTNESS : <span id ="currentVal">XX</p>
-			  		<input id="slider1" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+
+			  		<!-- TEMPERATURE -->
+			  		<div id = "temperatureControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
+				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- HUE -->
+			  		<div id = "hueControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
+				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- EXPOSURE -->
+			  		<div id = "temperatureControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">TEMPERATURE : <span id ="currentVal">XX</span></p>
+				  		<input id="temperatureSlider" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		</div>
+
+			  		<!-- BRIGHTNESS -->
+			  		<div id = "brightnessControl" class="controlBox">
+				  		<p class="help-block text-uppercase touch-off">BRIGHTNESS : <span id ="currentVal">XX</span></p>
+				  		<input id="slider1" type="range" min="-100" max="100" step="1" class="touch-on" onclick=""/>
+			  		</div>
+
+
+
 			  	</div>
 			  	<div id="invertMode" class="pull-right">
 			  		<button type="button" class="btn btn-primary btn-lg">COLR</button>
@@ -82,6 +107,5 @@
 
 	</container>
   <script language="javascript" type="text/javascript" src="js/camanManip.js"></script>
-  <script language="javascript" type="text/javascript" src="patTest.js"></script>
 </body>
 </html>
